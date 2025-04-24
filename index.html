@@ -27,7 +27,7 @@
             <li><a href="#intro">HOME</a></li>
             <li><a href="#one">RESEARCH</a></li>
             <li><a href="#two">GROUP</a></li>
-            <li><a href="#three">NEWS</a></li>
+            <li><a href="#three">PROJECTS</a></li>
             <li><a href="#four">CONTACT</a></li>
           </ul>
         </nav>
@@ -56,17 +56,24 @@
                 </h3>
                 <br />
 
-                <h3>Research domains:</h3>
-                <ul>
-                  <li>Aerial robotics</li>
-                  <li>Embodied intelligence for drones</li>
-                  <li>Aerial physical interaction</li>
-                  <li>Bio-inspired design</li>
-                  <li>Compliant mechanisms</li>
-                </ul>
-
-                <!-- personal quote in corsive and wirthin big quotes-->
-                <p>Per aspera ad astra</p>
+                <h3>About me</h3>
+                <div class="content">
+                  <div class="inner">
+                    <!-- make text smaller: -->
+                    <p class="small text">
+                      Prof. Salua Hamaza is Assistant Professor in Aerial
+                      Robotics & Director of the BioMorphic I.ntelligence Lab at
+                      TU Delft, Netherlands. She is also Research Fellow at
+                      Imperial College London, Aerial Robotics Lab.
+                    </p>
+                    <p>
+                      Her research focuses on aerial manipulation. Her robotic
+                      solutions take inspiration from biological systems for
+                      flying and interaction tasks, aimed at design robot with
+                      built-in embodied intelligence.
+                    </p>
+                  </div>
+                </div>
                 <ul class="actions">
                   <li>
                     <a href="#four" class="button scrolly">Contact</a>
@@ -109,7 +116,7 @@
           /></a>
           <div class="content">
             <div class="inner">
-              <h2>About me</h2>
+              <h2>Research</h2>
               <p>
                 Prof. Salua Hamaza is Assistant Professor in Aerial Robotics &
                 Director of the BioMorphic I.ntelligence Lab at TU Delft,
@@ -131,55 +138,80 @@
       </section>
 
       <!-- Two GROUP-->
-      <section id="two" class="wrapper style1 spotlights">
-        <section>
-          <div class="content">
-            <div class="inner">
+      <section id="two" class="wrapper style1 spotlights fade-up">
+        <div class="inner">
+          <section class="split style1">
+            <div class="content">
               <h2>BioMorphic Intelligence Lab</h2>
               <p>
-                Prof. Salua Hamaza is Assistant Professor in Aerial Robotics &
-                Director of the BioMorphic Intelligence Lab at TU Delft,
-                Netherlands. She is also Research Fellow at Imperial College
-                London, Aerial Robotics Lab.
+                Aerial robots are now ubiquitous. Thanks to their nimbleness,
+                manoeuvrability, and affordability, drones are used in many
+                sectors to monitor, map, and inspect. As a next step, flying
+                robots offer more when interacting with their surroundings via
+                anthropomorphic-like manipulation capabilities.
               </p>
               <p>
-                Her research focuses on aerial manipulation. Her robotic
-                solutions take inspiration from biological systems for flying
-                and interaction tasks, aimed at design robot with built-in
-                embodied intelligence.
+                The BioMorphic Intelligence Lab, part of the
+                <a
+                  href="https://www.tudelft.nl/en/ai/tu-delft-ai-labs"
+                  target="_blank"
+                  >TU Delft AI Labs programme</a
+                >, aims to tackle robustness and efficiency challenges for
+                interacting drones, using biologically inspired solutions for
+                both the 'body' and the 'brain' and applying embodied
+                intelligence and neuromorphic AI techniques.
               </p>
               <ul class="actions">
-                <li><a href="biomorhipc.html" class="button">The lab</a></li>
+                <li>
+                  <a
+                    href="https://www.tudelft.nl/ai/biomorphic-intelligence-lab"
+                    class="button"
+                    target="_blank"
+                    >Lab's Website</a
+                  >
+                  <a
+                    href="https://www.tudelft.nl/ai/biomorphic-intelligence-lab/publications"
+                    class="button"
+                    target="_blank"
+                    >Publications</a
+                  >
+                </li>
               </ul>
             </div>
-          </div>
-          <a href="biomorhipc.html" class="image">
-            <img
-              src="images/biomorphic_logo.jpg"
-              alt="About Salua's Research"
-              data-position="left center"
-          /></a>
-        </section>
+            <div class="image fit">
+              <img
+                src="images/biomorphic_logo.jpg"
+                alt="Biomorphic Intelligence Lab"
+                data-position="left center"
+              />
+            </div>
+          </section>
+        </div>
       </section>
 
       <!-- Three -->
-      <section id="three" class="wrapper style3 fade-up">
+      <section id="three" class="wrapper style2 fade-up">
         <div class="inner">
-          <h2>What we do</h2>
+          <h2>Research themes</h2>
           <p>
-            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-            turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-            lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-            imperdiet est velit quis lorem.
+            These are some of the projects I am currently working on. For more
+            information, please visit the lab's website.
           </p>
           <div class="features">
             <section>
-              <span class="icon solid major fa-code"></span>
-              <h3>Lorem ipsum amet</h3>
+              <span class="image"
+                ><img src="images/academic/eflap.svg" alt=""
+              /></span>
+              <h4>
+                Biomorphic design of aerial robots for cluttered environments
+              </h4>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                Aerial platform with extensive actuation and mobility
+                capabilities for morphing, therefore addressing ‘act’.
               </p>
+              <ul class="actions">
+                <li><a href="eflap.html" class="button">Learn more</a></li>
+              </ul>
             </section>
             <section>
               <span class="icon solid major fa-lock"></span>
@@ -282,7 +314,9 @@
                   <h3>Social</h3>
                   <ul class="icons">
                     <li>
-                      <a href="https://www.linkedin.com/in/salua-hamaza/" class="icon brands fa-linkedin-in"
+                      <a
+                        href="https://www.linkedin.com/in/salua-hamaza/"
+                        class="icon brands fa-linkedin-in"
                         ><span class="label">LinkedIn</span></a
                       >
                     </li>
