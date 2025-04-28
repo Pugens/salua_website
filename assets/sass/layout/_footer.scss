@@ -17,16 +17,16 @@
 
 		> .inner {
 			a {
-				border-bottom-color: _palette(border);
+				border-bottom-color: _palette(accent3);
 
 				&:hover {
-					border-bottom-color: transparent;
+					border-bottom-color: _palette(accent3);
 				}
 			}
 
 			.menu {
 				font-size: 0.8em;
-				color: _palette(border);
+				color: _palette(accent3);
 			}
 		}
 

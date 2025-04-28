@@ -88,7 +88,7 @@ html {
 }
 
 body {
-  background: #0b64a1;
+  background: #005b88;
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   animation: none !important;
@@ -163,7 +163,7 @@ h1.major {
   padding-bottom: 0.35em;
 }
 h1.major:after {
-  background-image: linear-gradient(to right, #005b88, #540088);
+  background-image: linear-gradient(to right, #005b88, #004e7b);
   transition: max-width 0.2s ease;
   border-radius: 0.2em;
   bottom: 0;
@@ -227,7 +227,7 @@ sup {
 }
 
 blockquote {
-  border-left: solid 4px rgba(255, 255, 255, 0.15);
+  border-left: solid 4px rgba(255, 255, 255, 0.3137254902);
   font-style: italic;
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 2em;
@@ -236,7 +236,7 @@ blockquote {
 code {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 0.25em;
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.3137254902);
   font-family: "Courier New", monospace;
   font-size: 0.9em;
   margin: 0 0.25em;
@@ -258,7 +258,7 @@ pre code {
 
 hr {
   border: 0;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.3137254902);
   margin: 2em 0;
 }
 hr.major {
@@ -1390,7 +1390,7 @@ hr.major {
 /* Box */
 .box {
   border-radius: 0.25em;
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.3137254902);
   margin-bottom: 2em;
   padding: 1.5em;
 }
@@ -1417,7 +1417,7 @@ button,
   transition: border-color 0.2s ease;
   background-color: transparent;
   border: solid 1px !important;
-  border-color: rgba(255, 255, 255, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.3137254902) !important;
   border-radius: 3em;
   color: #ffffff !important;
   cursor: pointer;
@@ -1487,7 +1487,7 @@ input[type=button].primary,
 button.primary,
 .button.primary {
   background-color: #ffffff;
-  color: #0b64a1 !important;
+  color: #005b88 !important;
 }
 input[type=submit].primary:after,
 input[type=reset].primary:after,
@@ -1546,21 +1546,21 @@ button:hover:active:after,
   display: flex;
   flex-wrap: wrap;
   border-radius: 0.25em;
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.3137254902);
   background: rgba(255, 255, 255, 0.05);
   margin: 0 0 2em 0;
 }
 .features section {
   padding: 3.5em 3em 1em 7em;
   width: 50%;
-  border-top: solid 1px rgba(255, 255, 255, 0.15);
+  border-top: solid 1px rgba(255, 255, 255, 0.3137254902);
   position: relative;
 }
 .features section:nth-child(-n+2) {
   border-top-width: 0;
 }
 .features section:nth-child(2n) {
-  border-left: solid 1px rgba(255, 255, 255, 0.15);
+  border-left: solid 1px rgba(255, 255, 255, 0.3137254902);
 }
 .features section .icon {
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -1742,7 +1742,7 @@ textarea {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 0.25em;
   border: none;
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.3137254902);
   color: inherit;
   display: block;
   outline: 0;
@@ -1769,7 +1769,7 @@ textarea:focus {
 }
 
 select {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.15)' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.3137254902)' /%3E%3C/svg%3E");
   background-size: 1.25rem;
   background-repeat: no-repeat;
   background-position: calc(100% - 1rem) center;
@@ -1779,7 +1779,7 @@ select {
 }
 select option {
   color: #ffffff;
-  background: #0b64a1;
+  background: #005b88;
 }
 select:focus::-ms-value {
   background-color: transparent;
@@ -1843,7 +1843,7 @@ input[type=checkbox] + label:before,
 input[type=radio] + label:before {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 0.25em;
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.3137254902);
   content: "";
   display: inline-block;
   font-size: 0.8em;
@@ -1859,7 +1859,7 @@ input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
-  color: #540088;
+  color: #004e7b;
   content: "\f00c";
 }
 input[type=checkbox]:focus + label:before,
@@ -1932,7 +1932,7 @@ input[type=radio] + label:before {
   display: block;
   background: #ffffff;
   border-radius: 100%;
-  color: #0b64a1;
+  color: #005b88;
   text-align: center;
   line-height: 2.5em;
   margin: 0 0 1.3em 0;
@@ -1947,16 +1947,19 @@ input[type=radio] + label:before {
   color: #003955;
 }
 .wrapper.style2 .icon.major:before {
-  color: #0b64a1;
+  color: #03639c;
 }
 .wrapper.style2-alt .icon.major:before {
-  color: #084671;
+  color: #02436a;
 }
 .wrapper.style3 .icon.major:before {
-  color: #540088;
+  color: #004e7b;
 }
 .wrapper.style3-alt .icon.major:before {
-  color: #350055;
+  color: #002e48;
+}
+.wrapper.style4 .icon.major:before {
+  color: #003955;
 }
 
 /* Image */
@@ -2026,7 +2029,7 @@ ul.alt {
   padding-left: 0;
 }
 ul.alt li {
-  border-top: solid 1px rgba(255, 255, 255, 0.15);
+  border-top: solid 1px rgba(255, 255, 255, 0.3137254902);
   padding: 0.5em 0;
 }
 ul.alt li:first-child {
@@ -2176,7 +2179,7 @@ ul.menu {
   padding: 0;
 }
 ul.menu > li {
-  border-left: solid 1px rgba(255, 255, 255, 0.15);
+  border-left: solid 1px #004e7b;
   display: inline-block;
   line-height: 1;
   margin-left: 1.5em;
@@ -2236,7 +2239,7 @@ header h6 + p {
 }
 .split > :nth-child(2n-1) {
   padding-right: 2.5em;
-  border-right: solid 1px rgba(255, 255, 255, 0.15);
+  border-right: solid 1px rgba(255, 255, 255, 0.3137254902);
 }
 .split > :nth-child(2n) {
   padding-left: 2.5em;
@@ -2269,7 +2272,7 @@ header h6 + p {
     display: block;
   }
   .split > * {
-    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    border-top: solid 1px rgba(255, 255, 255, 0.3137254902);
     margin: 4em 0 0 0;
     padding: 4em 0 0 0;
     width: 100% !important;
@@ -2320,7 +2323,7 @@ body.is-ie .spotlights > section {
 }
 .spotlights > section > .image:before {
   transition: opacity 1s ease;
-  background: rgba(11, 100, 161, 0.9);
+  background: rgba(0, 91, 136, 0.9);
   content: "";
   display: block;
   height: 100%;
@@ -2402,7 +2405,7 @@ table {
   width: 100%;
 }
 table tbody tr {
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.3137254902);
   border-left: 0;
   border-right: 0;
 }
@@ -2420,16 +2423,16 @@ table th {
   text-align: left;
 }
 table thead {
-  border-bottom: solid 2px rgba(255, 255, 255, 0.15);
+  border-bottom: solid 2px rgba(255, 255, 255, 0.3137254902);
 }
 table tfoot {
-  border-top: solid 2px rgba(255, 255, 255, 0.15);
+  border-top: solid 2px rgba(255, 255, 255, 0.3137254902);
 }
 table.alt {
   border-collapse: separate;
 }
 table.alt tbody tr td {
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.3137254902);
   border-left-width: 0;
   border-top-width: 0;
 }
@@ -2471,7 +2474,7 @@ table.alt tfoot {
   }
 }
 .wrapper.alt {
-  background-color: #095589;
+  background-color: #004a6f;
 }
 .wrapper.style1 {
   background-color: #005b88;
@@ -2480,16 +2483,19 @@ table.alt tfoot {
   background-color: #003955;
 }
 .wrapper.style2 {
-  background-color: #0b64a1;
+  background-color: #03639c;
 }
 .wrapper.style2-alt {
-  background-color: #084671;
+  background-color: #02436a;
 }
 .wrapper.style3 {
-  background-color: #540088;
+  background-color: #004e7b;
 }
 .wrapper.style3-alt {
-  background-color: #350055;
+  background-color: #002e48;
+}
+.wrapper.style4 {
+  background-color: #003955;
 }
 .wrapper.fullscreen {
   display: -moz-flex;
@@ -2613,7 +2619,7 @@ body.is-ie .wrapper.fullscreen {
     padding: 1em 0;
   }
   #header > nav {
-    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    border-top: solid 1px rgba(255, 255, 255, 0.3137254902);
     text-align: inherit;
   }
   #header > nav > ul > li {
@@ -2654,14 +2660,14 @@ body.is-ie .wrapper.fullscreen {
   }
 }
 #footer > .inner a {
-  border-bottom-color: rgba(255, 255, 255, 0.15);
+  border-bottom-color: #004e7b;
 }
 #footer > .inner a:hover {
-  border-bottom-color: transparent;
+  border-bottom-color: #004e7b;
 }
 #footer > .inner .menu {
   font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.15);
+  color: #004e7b;
 }
 #header + #wrapper + #footer > .inner {
   margin: 0 auto;
@@ -2670,7 +2676,7 @@ body.is-ie .wrapper.fullscreen {
 /* Sidebar */
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
-  background: #0b64a1;
+  background: #004e7b;
   cursor: default;
   height: 100vh;
   left: 0;
@@ -2800,10 +2806,10 @@ body.is-ie #sidebar > .inner {
   width: 100%;
 }
 #sidebar nav a:before {
-  background: #0d73b9;
+  background: #006ca2;
 }
 #sidebar nav a:after {
-  background-image: linear-gradient(to right, #005b88, #540088);
+  background-image: linear-gradient(to right, #005b88, #ffffff);
   transition: max-width 0.2s ease;
   max-width: 0;
 }
@@ -2869,7 +2875,7 @@ body.is-preload #sidebar nav ul li {
   }
   #sidebar nav a:after {
     background-image: none;
-    background-color: #540088;
+    background-color: #004e7b;
   }
 }
 @media screen and (max-width: 736px) {
@@ -2881,10 +2887,10 @@ body.is-preload #sidebar nav ul li {
 /* Intro */
 #intro {
   background-attachment: fixed;
-  background-image: url("images/intro.svg");
-  background-position: top right;
+  background-image: url("/images/tudelft_logo.svg");
+  background-position: left center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 150% 200%;
 }
 #intro p {
   font-size: 1em;
