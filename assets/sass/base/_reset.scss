@@ -24,11 +24,27 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		position: center;
+	}
+
+	// make all links open in a new tab
+	a {
+		color: inherit;
+		cursor: pointer;
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			text-decoration: underline;
+		}
+
 	}
 
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
 		display: block;
+	}
+
+	figcaption {
+		text-align: center;
 	}
 
 	body {
