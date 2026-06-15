@@ -2923,4 +2923,37 @@ body.is-preload #sidebar nav ul li {
   #intro {
     background-attachment: scroll;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/* Group member figures – uniform size, responsive wrapping */
+#three .actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+  margin-left: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+#three .actions li {
+  padding: 0;
+  flex: 0 0 calc(20% - 1.5em);
+  min-width: 100px;
+  max-width: 160px;
+}
+
+#three figure {
+  text-align: center;
+  margin: 0;
+}
+
+#three figure img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */
