@@ -432,6 +432,7 @@
           <section>
             <div class="content">
               <h2>BioMorphic Intelligence Lab</h2>
+              <h3>Postdocs</h3>
               <ul class="actions">
                 <li>
                   <a
@@ -442,12 +443,11 @@
                     <figure>
                       <img
                         src="/images/group/dimitris.png " loading="lazy" loading="lazy"
-                        title="Dimitris Chaikalis Postdoc"
-                        alt="Dimitris Chaikalis Postdoc"
+                        title="Dimitris Chaikalis"
+                        alt="Dimitris Chaikalis"
                       />
                       <figcaption>
-                        Dimitris Chaikalis<br />
-                        Postdoc
+                        Dimitris Chaikalis
                       </figcaption>
                     </figure>
                   </a>
@@ -461,12 +461,11 @@
                     <figure>
                       <img
                         src="/images/group/teresa.png " loading="lazy" loading="lazy"
-                        title="Teresa Kent Postdoc"
-                        alt="Teresa Kent Postdoc"
+                        title="Teresa Kent"
+                        alt="Teresa Kent"
                       />
                       <figcaption>
-                        Teresa Kent<br />
-                        Postdoc
+                        Teresa Kent
                       </figcaption>
                     </figure>
                   </a>
@@ -480,16 +479,18 @@
                     <figure>
                       <img
                         src="/images/group/fernando.png" loading="lazy" loading="lazy"
-                        title="Fernando Ruiz Vincueria Postdoc"
-                        alt="Fernando Ruiz Vincueria Postdoc"
+                        title="Fernando Ruiz Vincueria"
+                        alt="Fernando Ruiz Vincueria"
                       />
                       <figcaption>
-                        Fernando Ruiz Vincueria<br />
-                        Postdoc
+                        Fernando Ruiz Vincueria
                       </figcaption>
                     </figure>
                   </a>
                 </li>
+              </ul>
+              <h3>PhD Candidates</h3> 
+              <ul class="actions">
                 <li>
                   <a
                     href="https://www.tudelft.nl/staff/c.ye/"
@@ -499,12 +500,11 @@
                     <figure>
                       <img
                         src="/images/group/chaoxiang.png" loading="lazy" loading="lazy"
-                        title="Chaoxiang Ye PhD"
-                        alt="Chaoxiang Ye PhD"
+                        title="Chaoxiang Ye"
+                        alt="Chaoxiang Ye"
                       />
                       <figcaption>
-                        Chaoxiang Ye<br />
-                        PhD
+                        Chaoxiang Ye
                       </figcaption>
                     </figure>
                   </a>
@@ -518,18 +518,15 @@
                     <figure>
                       <img
                         src="/images/group/jane.png " loading="lazy" loading="lazy"
-                        title="Jane Pauline Ramirez PhD"
-                        alt="Jane Pauline Ramirez PhD"
+                        title="Jane Pauline Ramirez"
+                        alt="Jane Pauline Ramirez"
                       />
                       <figcaption>
-                        Jane Pauline Ramirez<br />
-                        PhD
+                        Jane Pauline Ramirez
                       </figcaption>
                     </figure>
                   </a>
                 </li>
-              </ul>
-              <ul class="actions">
                 <li>
                   <a
                     href="https://www.tudelft.nl/staff/l.zheng-1/"
@@ -539,12 +536,11 @@
                     <figure>
                       <img
                         src="/images/group/liming.png" loading="lazy" loading="lazy"
-                        title="Liming Zheng PhD"
-                        alt="Liming Zheng PhD"
+                        title="Liming Zheng"
+                        alt="Liming Zheng"
                       />
                       <figcaption>
-                        Liming Zheng<br />
-                        PhD
+                        Liming Zheng
                       </figcaption>
                     </figure>
                   </a>
@@ -558,12 +554,11 @@
                     <figure>
                       <img
                         src="/images/group/anton.png" loading="lazy" loading="lazy"
-                        title="Anton Bredenbeck PhD"
-                        alt="Anton Bredenbeck PhD"
+                        title="Anton Bredenbeck"
+                        alt="Anton Bredenbeck"
                       />
                       <figcaption>
-                        Anton Bredenbeck<br />
-                        PhD
+                        Anton Bredenbeck
                       </figcaption>
                     </figure>
                   </a>
@@ -577,12 +572,11 @@
                     <figure>
                       <img
                         src="/images/group/martijn.png" loading="lazy" loading="lazy"
-                        title="Martijn Brummelhuis PhD"
-                        alt="Martijn Brummelhuis PhD"
+                        title="Martijn Brummelhuis"
+                        alt="Martijn Brummelhuis"
                       />
                       <figcaption>
-                        Martijn Brummelhuis<br />
-                        PhD
+                        Martijn Brummelhuis
                       </figcaption>
                     </figure>
                   </a>
@@ -596,12 +590,11 @@
                     <figure>
                       <img
                         src="/images/group/sunyi.png" loading="lazy" loading="lazy"
-                        title="Sunyi Wang PhD"
-                        alt="Sunyi Wang PhD"
+                        title="Sunyi Wang"
+                        alt="Sunyi Wang"
                       />
                       <figcaption>
-                        Sunyi Wang<br />
-                        PhD
+                        Sunyi Wang
                       </figcaption>
                     </figure>
                   </a>
@@ -615,11 +608,11 @@
                     <figure>
                       <img
                         src="/images/group/sury.png" loading="lazy" loading="lazy"
-                        alt="Suryansh Sharma PhD"
+                        title="Suryansh Sharma"
+                        alt="Suryansh Sharma"
                       />
                       <figcaption>
-                        Suryansh Sharma<br />
-                        PhD
+                        Suryansh Sharma
                       </figcaption>
                     </figure>
                   </a>
@@ -766,5 +759,13 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      // Set --cols on each group row so items distribute into ~2 balanced rows
+      document.querySelectorAll('#three .actions').forEach(function(ul) {
+        var n = ul.querySelectorAll('li').length;
+        var cols = n <= 4 ? n : Math.ceil(n / 2);
+        ul.style.setProperty('--cols', cols);
+      });
+    </script>
   </body>
 </html>
